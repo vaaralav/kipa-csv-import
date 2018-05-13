@@ -4,9 +4,9 @@ const meow = require('meow');
 const main = require('./index.js');
 
 const cli = meow(`
-  Käyttö $ ./cli.js <CSV-tiedoston nimi> <syöttösivun osoite> <syötteen ID>
+  Käyttö $ kipa-csv-import <CSV-tiedoston nimi> <syöttösivun osoite> <syötteen ID>
 
-  Esimerkki: $ ./cli.js vartio_vs_manse_SI.csv http://10.0.0.10/kipa/LLHK18/syota/tehtava/139/ 449
+  Esimerkki: $ kipa-csv-import vartio_vs_manse_SI.csv http://10.0.0.10/kipa/LLHK18/syota/tehtava/139/ 449
 
   - CSV-tiedoston nimi: Esim. "tulokset.csv"
   - syöttösivun osoite: Esim. "http://10.0.0.10/kipa/LLHK18/syota/tehtava/139/"

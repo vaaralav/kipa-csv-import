@@ -4,12 +4,18 @@
 
 Tulosten tuonti KIPAan CSV:nä.
 
+## Asennus
+
+```sh
+npm i -g kipa-csv-import
+```
+
 ## Käyttö
 
 Tulosta käyttöohje
 
 ```sh
-./cli.js --help
+kipa-csv-import --help
 ```
 
 ## CSV-tiedoston muoto
