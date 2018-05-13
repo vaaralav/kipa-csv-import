@@ -10,7 +10,7 @@ const cli = meow(`
 
   - CSV-tiedoston nimi: Esim. "tulokset.csv"
   - syöttösivun osoite: Esim. "http://10.0.0.10/kipa/LLHK18/syota/tehtava/139/"
-  - syötteen ID: Esim. 449
+  - syötteen ID: Esim. 449, löytyy syötesivun HTML-merkkauksesta
 `);
 
 (async function() {
