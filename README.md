@@ -5,12 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/vaaralav/kipa-csv-import.svg?style=social&label=Stars)](https://github.com/vaaralav/kipa-csv-import)
 [![license](https://img.shields.io/github/license/vaaralav/kipa-csv-import.svg)](LICENSE)
 
-
-
-
-
-
-Tulosten tuonti KIPAan CSV:nä.
+Tulosten tuonti [KIPAan](https://github.com/partio-scout/kipa) CSV:nä.
 
 ## Asennus
 
