@@ -23,17 +23,17 @@ kipa-csv-import --help
 
 ## CSV-tiedoston muoto
 
-Tiedostossa tulee olla kaksi saraketta ilman otsikkoriviä. Yhdessä tiedostossa tulee olla koko sarja.
+Ensimmäisessä sarakkeessa on aina vartion numero. Loput sarakkeet ovat syötteitä samassa järjestyksessä kuin ne KIPAssa näkyvät. Otsikkoriviä ei saa olla ja koko sarjan tulokset on oltava yhdessä tiedostossa.
 
 ```csv
-<vartion_numero>,<tulos>
-<vartion_numero>,<tulos>
+<vartion_numero>,<tulos>,<tulos>,<tulos>
+<vartion_numero>,<tulos>,<tulos>,<tulos>
 ```
 
 ### Sarakkeet
 
 * `vartion_numero`
-* `tulos`: numero / 'h' = hylätty / 'e' = vartio ei suorittanut tehtävää
+* `tulos`: numero / aika / 'h' = hylätty / 'e' = vartio ei suorittanut tehtävää
 
 Esimerkiksi
 
