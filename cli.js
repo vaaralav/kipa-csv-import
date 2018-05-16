@@ -9,13 +9,12 @@ const cli = meow(`
   Esimerkki: $ kipa-csv-import vartio_vs_manse_SI.csv http://10.0.0.10/kipa/LLHK18/syota/tehtava/139/ 449
 
   - CSV-tiedoston nimi: Esim. "tulokset.csv"
-  - syöttösivun osoite: Esim. "http://10.0.0.10/kipa/LLHK18/syota/tehtava/139/"
-  - syötteen ID: Esim. 449, löytyy syötesivun HTML-merkkauksesta
+  - syöttösivun osoite: Esim. "http://10.0.0.10/kipa/LLHK18/syota/tehtava/139/" HUOM! Vaatii loppuun kenoviivan '/'
 `);
 
 (async function() {
   try {
-    if (cli.input.length !== 3) {
+    if (cli.input.length !== 2) {
       throw 'Parametreja on väärä määrä!';
     }
     await main(...cli.input);
